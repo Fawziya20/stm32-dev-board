@@ -3,26 +3,27 @@
 This repository contains the design files for an STM32 Development board created using Proteus software. The aim of this project is to provide a ready-to-use development board for STM32 microcontrollers, which can be used for prototyping and testing purposes.
 
 ### Design Steps
-1)Components Selection: Choose the appropriate STM32 microcontroller based on your requirements, such as processing power, memory, peripherals, etc. Select other necessary components like voltage regulators, crystal oscillator, connectors, and LEDs.
 
-2)Schematic Design: Create the schematic diagram using Proteus software. Place the selected components and connect them according to the datasheets and reference designs. Pay attention to power supply connections, decoupling capacitors, and proper grounding.
+1)**Components Selection**: Choose the appropriate STM32 microcontroller based on your requirements, such as processing power, memory, peripherals, etc. Select other necessary components like voltage regulators, crystal oscillator, connectors, and LEDs.
 
-3)PCB Layout: Once the schematic is completed, proceed with the PCB layout design. Place the components on the PCB, considering factors like signal integrity, component placement, and clear routing paths. Ensure proper spacing and keep in mind any mechanical constraints.
+2)**Schematic Design**: Create the schematic diagram using Proteus software. Place the selected components and connect them according to the datasheets and reference designs. Pay attention to power supply connections, decoupling capacitors, and proper grounding.
 
-4)Routing: Route the connections between components, ensuring signal integrity, impedance control, and minimizing signal crosstalk. Follow best practices for high-speed signals and power traces. Consider adding ground planes and proper clearance.
+3)**PCB Layout**: Once the schematic is completed, proceed with the PCB layout design. Place the components on the PCB, considering factors like signal integrity, component placement, and clear routing paths. Ensure proper spacing and keep in mind any mechanical constraints.
 
-5)Design Rule Check (DRC): Run the Design Rule Check in Proteus to ensure that the PCB layout adheres to the manufacturing rules and constraints. Resolve any DRC errors or warnings before proceeding further.
+4)**Routing**: Route the connections between components, ensuring signal integrity, impedance control, and minimizing signal crosstalk. Follow best practices for high-speed signals and power traces. Consider adding ground planes and proper clearance.
 
-6)Export Gerber Files: Generate the Gerber files from the PCB layout in Proteus. These files contain the necessary information for manufacturing the PCB.
+5)**Design Rule Check (DRC)**: Run the Design Rule Check in Proteus to ensure that the PCB layout adheres to the manufacturing rules and constraints. Resolve any DRC errors or warnings before proceeding further.
 
-7)Fabrication: Send the Gerber files to a PCB fabrication service or manufacture the board yourself if you have the necessary equipment. Choose the appropriate materials, PCB thickness, and surface finish according to your requirements.
+6)**Export Gerber Files**: Generate the Gerber files from the PCB layout in Proteus. These files contain the necessary information for manufacturing the PCB.
 
-8)Assembly: Once you receive the fabricated PCBs, start the assembly process. Solder the components onto the board, following industry-standard techniques. Take care of component orientation, solder joints, and cleanliness.
+7)**Fabrication**: Send the Gerber files to a PCB fabrication service or manufacture the board yourself if you have the necessary equipment. Choose the appropriate materials, PCB thickness, and surface finish according to your requirements.
 
-9)Testing: After assembly, perform thorough testing of the development board. Check for any short circuits, open connections, or incorrect component placements. Test the functionality and verify that the STM32 microcontroller and peripherals are working as expected.
+8)**Assembly**: Once you receive the fabricated PCBs, start the assembly process. Solder the components onto the board, following industry-standard techniques. Take care of component orientation, solder joints, and cleanliness.
+
+9)**Testing**: After assembly, perform thorough testing of the development board. Check for any short circuits, open connections, or incorrect component placements. Test the functionality and verify that the STM32 microcontroller and peripherals are working as expected.
 
 
-### Output:
+### Output
 
 ![exp 4 img](https://github.com/Fawziya20/stm32-dev-board/assets/75235022/0d7b2bed-da3f-4337-93f1-7fbba6fd1bf5)
 
